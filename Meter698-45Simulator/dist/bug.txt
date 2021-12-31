@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "Meter698_Start.py", line 71, in load_ini
+  File "Meter698_Start.py", line 78, in ini
+FileNotFoundError: [Errno 2] No such file or directory: 'source\\698data'
