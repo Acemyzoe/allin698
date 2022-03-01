@@ -1,0 +1,188 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'UI_MainWindow.ui'
+#
+# Created by: PyQt5 UI code generator 5.11.3
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.setEnabled(True)
+        MainWindow.resize(670, 509)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.verticalLayout = QtWidgets.QVBoxLayout(self.centralwidget)
+        self.verticalLayout.setContentsMargins(9, 9, 9, 9)
+        self.verticalLayout.setSpacing(6)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.groupBox = QtWidgets.QGroupBox(self.centralwidget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(15)
+        sizePolicy.setVerticalStretch(22)
+        sizePolicy.setHeightForWidth(self.groupBox.sizePolicy().hasHeightForWidth())
+        self.groupBox.setSizePolicy(sizePolicy)
+        self.groupBox.setMinimumSize(QtCore.QSize(13, 50))
+        self.groupBox.setBaseSize(QtCore.QSize(18, 42))
+        self.groupBox.setObjectName("groupBox")
+        self.layoutWidget = QtWidgets.QWidget(self.groupBox)
+        self.layoutWidget.setGeometry(QtCore.QRect(10, 20, 141, 22))
+        self.layoutWidget.setObjectName("layoutWidget")
+        self.horizontalLayout_2 = QtWidgets.QHBoxLayout(self.layoutWidget)
+        self.horizontalLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_2.setObjectName("horizontalLayout_2")
+        self.label = QtWidgets.QLabel(self.layoutWidget)
+        self.label.setObjectName("label")
+        self.horizontalLayout_2.addWidget(self.label)
+        self.lineEdit = QtWidgets.QLineEdit(self.layoutWidget)
+        self.lineEdit.setMaxLength(12)
+        self.lineEdit.setReadOnly(True)
+        self.lineEdit.setObjectName("lineEdit")
+        self.horizontalLayout_2.addWidget(self.lineEdit)
+        self.verticalLayout.addWidget(self.groupBox)
+        self.horizontalLayout = QtWidgets.QHBoxLayout()
+        self.horizontalLayout.setSizeConstraint(QtWidgets.QLayout.SetMinAndMaxSize)
+        self.horizontalLayout.setSpacing(5)
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.textEdit_2 = QtWidgets.QTextEdit(self.centralwidget)
+        self.textEdit_2.setEnabled(True)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Ignored, QtWidgets.QSizePolicy.MinimumExpanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.textEdit_2.sizePolicy().hasHeightForWidth())
+        self.textEdit_2.setSizePolicy(sizePolicy)
+        self.textEdit_2.setReadOnly(True)
+        self.textEdit_2.setOverwriteMode(False)
+        self.textEdit_2.setCursorWidth(1)
+        self.textEdit_2.setObjectName("textEdit_2")
+        self.horizontalLayout.addWidget(self.textEdit_2)
+        self.textEdit = QtWidgets.QTextEdit(self.centralwidget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Ignored, QtWidgets.QSizePolicy.MinimumExpanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.textEdit.sizePolicy().hasHeightForWidth())
+        self.textEdit.setSizePolicy(sizePolicy)
+        self.textEdit.setLayoutDirection(QtCore.Qt.LeftToRight)
+        self.textEdit.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAsNeeded)
+        self.textEdit.setReadOnly(True)
+        self.textEdit.setObjectName("textEdit")
+        self.horizontalLayout.addWidget(self.textEdit)
+        self.verticalLayout.addLayout(self.horizontalLayout)
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 670, 23))
+        self.menubar.setObjectName("menubar")
+        self.menuOpen = QtWidgets.QMenu(self.menubar)
+        self.menuOpen.setObjectName("menuOpen")
+        self.menu = QtWidgets.QMenu(self.menubar)
+        self.menu.setObjectName("menu")
+        self.menu_2 = QtWidgets.QMenu(self.menubar)
+        self.menu_2.setEnabled(False)
+        self.menu_2.setObjectName("menu_2")
+        # self.menu_8 = QtWidgets.QMenu(self.menu_2)
+        # self.menu_8.setEnabled(True)
+        # self.menu_8.setObjectName("menu_8")
+
+        self.menu_4 = QtWidgets.QMenu(self.menubar)
+        self.menu_4.setEnabled(False)
+        self.menu_4.setObjectName("menu_4")
+        self.menu_5 = QtWidgets.QMenu(self.menubar)
+        self.menu_5.setEnabled(False)
+        self.menu_5.setObjectName("menu_5")
+
+        MainWindow.setMenuBar(self.menubar)
+        self.statusBar = QtWidgets.QStatusBar(MainWindow)
+        self.statusBar.setObjectName("statusBar")
+        MainWindow.setStatusBar(self.statusBar)
+        self.action = QtWidgets.QAction(MainWindow)
+        self.action.setIconText("Exit")
+        self.action.setObjectName("action")
+        self.actionSd = QtWidgets.QAction(MainWindow)
+        self.actionSd.setIconText("通讯配置")
+        self.actionSd.setIconVisibleInMenu(False)
+        self.actionSd.setObjectName("actionSd")
+        self.actionA = QtWidgets.QAction(MainWindow)
+        self.actionA.setObjectName("actionA")
+
+        self.actionSdf = QtWidgets.QAction(MainWindow)
+        self.actionSdf.setEnabled(False)
+        self.actionSdf.setObjectName("actionSdf")
+        # self.actionC = QtWidgets.QAction(MainWindow)
+        # self.actionC.setEnabled(False)
+        # self.actionC.setObjectName("actionC")
+
+        self.actionShuju = QtWidgets.QAction(MainWindow)
+        self.actionShuju.setObjectName("actionShuju")
+        self.actionCanshu = QtWidgets.QAction(MainWindow)
+        self.actionCanshu.setObjectName("actionCanshu")
+        self.actionDf = QtWidgets.QAction(MainWindow)
+        self.actionDf.setEnabled(False)
+        self.actionDf.setObjectName("actionDf")
+
+        self.actionAPDUzu = QtWidgets.QAction(MainWindow)
+        self.actionAPDUzu.setCheckable(False)
+        self.actionAPDUzu.setEnabled(True)
+        self.actionAPDUzu.setObjectName("actionAPDUzu")
+
+        self.actionstop = QtWidgets.QAction(MainWindow)
+        self.actionstop.setObjectName("actionstop")
+        self.menuOpen.addAction(self.actionSd)
+        self.menuOpen.addAction(self.action)
+        self.menu.addAction(self.actionA)
+
+        # self.menu_2.addAction(self.menu_8.menuAction())
+        
+        self.menu_2.addSeparator()
+        self.menu_2.addAction(self.actionSdf)
+        self.menu_2.addAction(self.actionstop)
+        # self.menu_4.addAction(self.actionC)
+        self.menu_4.addAction(self.actionDf)
+        self.menu_4.addAction(self.actionAPDUzu)
+        self.menu_5.addAction(self.actionShuju)
+        self.menu_5.addAction(self.actionCanshu)
+
+        self.menubar.addAction(self.menuOpen.menuAction())
+        self.menubar.addAction(self.menu_4.menuAction())
+        self.menubar.addAction(self.menu_2.menuAction())
+   
+        self.menubar.addAction(self.menu_5.menuAction())
+        self.menubar.addAction(self.menu.menuAction())
+        self.label.setBuddy(self.lineEdit)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "Simple"))
+        self.groupBox.setTitle(_translate("MainWindow", "信息:"))
+        self.label.setText(_translate("MainWindow", "终端地址:"))
+        self.menuOpen.setTitle(_translate("MainWindow", "文件"))
+        self.menu.setTitle(_translate("MainWindow", "帮助"))
+        self.menu_2.setTitle(_translate("MainWindow", "测试"))
+        # self.menu_8.setTitle(_translate("MainWindow", "默认测试方案"))
+
+        self.menu_4.setTitle(_translate("MainWindow", "工具"))
+        self.menu_5.setTitle(_translate("MainWindow", "复位"))
+
+
+        self.action.setText(_translate("MainWindow", "Exit"))
+        self.actionSd.setText(_translate("MainWindow", "通讯配置"))
+        self.actionA.setText(_translate("MainWindow", "关于"))
+
+        self.actionSdf.setText(_translate("MainWindow", "自定义测试"))
+        
+        # self.actionC.setText(_translate("MainWindow", "报文解析"))     
+            
+        self.actionShuju.setText(_translate("MainWindow", "数据初始化"))
+        self.actionCanshu.setText(_translate("MainWindow", "参数初始化"))
+        
+        self.actionDf.setText(_translate("MainWindow", "字符转换"))
+        
+        self.actionAPDUzu.setText(_translate("MainWindow", "自定义报文发送"))
+        
+        self.actionstop.setText(_translate("MainWindow", "停止下发"))
+
